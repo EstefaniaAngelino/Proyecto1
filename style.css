@@ -20,6 +20,10 @@
     text-align: center;
 }
 
+h1, h2, h3, p, span {
+    font-size: 1rem;
+    }
+
 .bar{
     background-color: var(--pink-dark);
     
