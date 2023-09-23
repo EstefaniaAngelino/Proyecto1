@@ -8,13 +8,18 @@
 :root{
     --pink-pale: #ecbdac;
     --pink-dark: #e08a7f;
+    --white: #ffffff;
     --beige:#b28573;
     --size: 12px;
 }
+h1, h2, h3, p, span {
+    font-size: 1rem;
+    }
+    
 
 .conditions{
     background-color: var(--pink-pale);
-    color: white;
+    color: var(--white);
     font-size: var(--size);
     padding: 15px;
     text-align: center;
@@ -44,7 +49,7 @@ h1, h2, h3, p, span {
 }
 a{
     text-decoration: none;
-    color: white;
+    color: var(--white);
    
 }
 .mobile{
@@ -541,13 +546,13 @@ h2{
     margin: 0 auto;
     padding-right: auto;
     background: #2a2929;
-    color: white;
+    color: var(--white);
     text-align: center;
 }
 
 .botton:hover{
     background: var(--beige);
-    color: white;
+    color: var(--white);
     cursor: pointer;
 }
 
